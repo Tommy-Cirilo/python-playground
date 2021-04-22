@@ -18,13 +18,14 @@ print(len(fruits))
 # Append to list
 fruits.append('Mangos')
 
-print(fruits)
-
 # Remove from list
 fruits.remove('Grapes')
 
 # Insert into position
 fruits.insert(2, 'Strawberries')
+
+# Change Value
+fruits[0] = 'Blueberries'
 
 # Remove with pop
 fruits.pop(2)
@@ -34,3 +35,8 @@ fruits.reverse()
 
 # Sort List Alphabetically
 fruits.sort()
+
+# Reverse Sort 
+fruits.sort(reverse=True)
+
+print(fruits)
