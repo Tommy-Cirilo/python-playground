@@ -40,4 +40,25 @@ print(s.replace('world', 'everyone'))
 sub = 'h'
 print(s.count(sub))
 
+# Starts with. This returns a boolean
+print(s.startswith('hello'))
+
+# Ends with. This returns a boolean
+print(s.endswith('d'))
+
+#Split string into a list (Like an array)
+print(s.split())
+
+# Find position
+print(s.find('r'))
+
+# Is all alphanumeric
+print(s.isalnum())
+
+# Is all alphabetic
+print(s.isalpha())
+
+# Is all numeric
+print(s.isnumeric())
+
 
