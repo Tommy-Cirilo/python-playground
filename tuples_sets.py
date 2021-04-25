@@ -33,7 +33,7 @@ fruits_set = {'Apples', 'Oranges', 'Mango'}
 #Check if something is in a set
 print('Apples' in fruits_set)
 
-#Add to set
+#Add to set (Can't Add a duplicate to a set)
 fruits_set.add('Grape')
 
 #Remove from set
